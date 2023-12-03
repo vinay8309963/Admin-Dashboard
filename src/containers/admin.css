@@ -1,0 +1,123 @@
+/* admin.css */
+
+/* Styling for Add User section */
+.add-user {
+    margin-bottom: 20px;
+  }
+  
+  .add-user h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .add-user-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .add-user-form input[type="text"],
+  .add-user-form input[type="email"],
+  .add-user-form button[type="submit"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  /* Styles for the Add button */
+  .add-user-form button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-user-form button[type="submit"]:hover {
+    background-color: #0056b3;
+    /* Adjust other styles as needed */
+  }
+    
+  /* Styling for Search bar */
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    font-size: 14px;
+  }
+  
+  .search-bar .search-icon {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-bar .search-icon:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .selected {
+    background-color: #ddd !important;
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    margin-bottom: 20px;
+  }
+  .pagination button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Delete Selected button style */
+  .delete-selected {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+  }
+  .delete-selected:hover {
+    background-color: #c82333;
+  }
+  
